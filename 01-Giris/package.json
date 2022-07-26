@@ -1,0 +1,17 @@
+{
+  "name": "slugify_ve_digerleri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-fetch": "^3.2.6",
+    "slugify": "^1.6.5"
+  }
+}
