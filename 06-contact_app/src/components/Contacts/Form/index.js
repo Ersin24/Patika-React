@@ -6,14 +6,17 @@ function Form( {addContact, contacts} ) {
 
   const [form, setForm] = useState(initialFormValues);
 
+  //Veri eklendiği anda form değerlerini sıfırlıyoruz.
   useEffect( () => {
     setForm(initialFormValues)
   }, [contacts])
 
+  //Value değiştiği anda
   const onChangeInput = (e) => {
     setForm( {...form, [e.target.name]: e.target.value })
   }
 
+  //Submit edildiği anda
   const onSubmit = (e) => {
     e.preventDefault();
 
@@ -24,10 +27,6 @@ function Form( {addContact, contacts} ) {
     addContact( [...contacts, form]);
 
   }
-
-
-
-
 
 
   return (
