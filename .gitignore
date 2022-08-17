@@ -1,1 +1,9 @@
 /00-Calismalar
+/node_modules
+/package.json
+/package-lock.json
+/public
+/App.test.js
+/reportWebVitals.js
+/setupTest.js
+/logo.svg
