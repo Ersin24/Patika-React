@@ -1,3 +1,3 @@
 ## Patika-React
 
-> Patika.dev adresindeki **React** partikası güncellenmiştir..
+> Patika.dev adresindeki **React** patikası güncel halidir.
